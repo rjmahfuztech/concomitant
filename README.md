@@ -2,7 +2,7 @@
 
 ## This is actually psd to html converted project.
 
-### Used Technology
+### Used Technology only
 
 - HTML
 - CSS
