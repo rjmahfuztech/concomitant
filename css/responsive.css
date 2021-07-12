@@ -1,0 +1,120 @@
+/* Tablet Layout */
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .container {
+    max-width: 96%;
+  }
+  .inner_header {
+    padding: 0 2%;
+  }
+  .logo_area {
+    width: 35%;
+  }
+  .header_right_area {
+    width: 64%;
+  }
+  #mobile_menu .search_area {
+    display: none;
+  }
+  .mean-container .mean-nav {
+    margin-top: 0px;
+  }
+  .menu_area ul li ul {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .menu_area ul ul ul {
+    top: 0;
+    left: 0;
+  }
+  .menu_area ul li:hover ul ul {
+    left: 0px;
+  }
+  .menu_area ul ul li:hover ul {
+    left: 0px;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+    height: 22px;
+  }
+  .menu_area ul ul li {
+    margin: 0;
+  }
+  .menu_area {
+    max-width: 700px;
+    width: 100%;
+  }
+  .slider_inner {
+    width: 96%;
+    padding: 15px 2%;
+  }
+}
+/* Tablet Layout */
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .logo_area {
+    width: 200px;
+    float: none;
+    margin: 0 auto 10px;
+    padding-top: 15px;
+  }
+  .header_right_area {
+    width: 100%;
+  }
+  .social_area {
+    background: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .social_area ul {
+    text-align: center;
+  }
+  .top_menu {
+    text-align: center;
+    margin: 5px 0 20px 0;
+  }
+  #service_area {
+    padding: 30px 0;
+  }
+  .child_service {
+    width: 96%;
+  }
+  .child_work {
+    width: 96%;
+    text-align: center;
+  }
+  .child_work img {
+    margin: 0 auto;
+  }
+  .child_work a {
+    float: none;
+    color: #fff;
+    background: #81b300;
+    padding: 8px 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .child_footer {
+    width: 96%;
+    float: none;
+    text-align: center;
+    overflow: hidden;
+  }
+  .child_footer ul {
+    text-align: center;
+  }
+  .child_footer .read_more {
+    color: #fff;
+    background: #81b300;
+    padding: 8px 10px;
+    float: none;
+    display: inline-block;
+    margin-top: 0;
+  }
+  .copyright_area .inner_copyright {
+    display: block;
+  }
+  .copyright_area .inner_copyright .copyright,
+  .copyright_area .inner_copyright .last {
+    text-align: center;
+    width: 100%;
+  }
+}
